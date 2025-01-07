@@ -6,9 +6,13 @@
         @include("html/html/partials/head-css")
 
     </head>
-        
-
+    
     <body class="authentication-bg">
+
+        {{-- @if (session()->has('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ session('success') }}
+                <button --}}
         <div class="account-pages mt-5 mb-5">
             <div class="container">
                 <div class="row justify-content-center">
@@ -28,16 +32,16 @@
                                     <h4 class="text-uppercase mt-0">Sign In</h4>
                                 </div>
 
-                                <form action="{{url('/authenticating')}}" method="POST">
+                                <form action="/login" method="POST">
                                     @csrf
                                     <div class="form-group mb-3">
-                                        <label for="email">Email address</label>
-                                        <input class="form-control" type="email" required="" name="email" id="email" placeholder="Enter your email" required>
+                                        <label for="email">Masukan Email</label>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" autofocus required>
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label for="password">Password</label>
-                                        <input class="form-control" type="password" name="password" required id="password" placeholder="Enter your password">
+                                        <label for="password">Masukan Password</label>
+                                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
                                     </div>
 
                                     <div class="form-group mb-3">

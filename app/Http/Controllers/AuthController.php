@@ -9,35 +9,42 @@ use Redirect;
 
 class AuthController extends Controller
 {
-    public function login()
+    public function formlogin()
     {
-        return view('login');
-        
+        return view('login', [
+            'title' => 'login',
+            'active' => 'login'
+        ]);
     }
 
-    public function authenticating(Request $request){
+    public function authenticate(Request $request){
         
         $credentials = $request->validate([
-            'email' => 'required|email',
+            'email' => 'required|email:dns',
             'password' => 'required',
         ]);
 
-        // Periksa kredensial pengguna
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
-
+        if(Auth::attempt($credentials)){
             // Redirect ke dashboard jika berhasil login
-            return redirect()->intended('/'); // Pastikan route 'dashboard' ada
-        } else {
+            $request->session()->regenerate();
+            
+            return redirect()->intended('/dashboard'); // Pastikan route 'dashboard' ada
+        } 
 
-            // Jika gagal login, flash pesan kesalahan
-            Session::flash('status', 'failed');
-            Session::flash('message', 'Login salah, silakan coba lagi.');
-    
-            return redirect('/');
-        }
-
+        // Jika gagal login, flash pesan kesalahan
+        return back()->with('loginError', 'login failed!');
     }
+
+        // Periksa kredensial pengguna
+        // if (Auth::attempt($credentials)) {
+        //     $request->session()->regenerate();
+        //     return redirect('/login');
+        //     // if(Auth::user()->role==='Admin') {
+        //     //     return redirect()->route('dashboard');
+        //     // }
+        // } else {
+        //     return redirect('/dashboard');
+        // }
 
 
     public function index()
@@ -46,7 +53,7 @@ class AuthController extends Controller
     }
 
 
-    public function dashboard(Request $request, $user)
+    public function dashboard()
     {
         return Redirect('/dashboard');
     }

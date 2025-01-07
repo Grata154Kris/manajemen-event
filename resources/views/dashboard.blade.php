@@ -30,160 +30,6 @@
             <div class="navbar-custom">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
-                    <li class="d-none d-sm-block">
-                        <form class="app-search">
-                            <div class="app-search-box">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search...">
-                                    <div class="input-group-append">
-                                        <button class="btn" type="submit">
-                                            <i class="fe-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </li>
-        
-                    <li class="dropdown notification-list">
-                        <a class="nav-link dropdown-toggle  waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                            <i class="fe-bell noti-icon"></i>
-                            <span class="badge badge-danger rounded-circle noti-icon-badge">9</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
-
-                            <!-- item-->
-                            <div class="dropdown-item noti-title">
-                                <h5 class="m-0">
-                                    <span class="float-right">
-                                        <a href="" class="text-dark">
-                                            <small>Clear All</small>
-                                        </a>
-                                    </span>Notification
-                                </h5>
-                            </div>
-
-                            <div class="slimscroll noti-scroll">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
-                                    <div class="notify-icon">
-                                        <img src="assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
-                                    <p class="notify-details">Cristina Pride</p>
-                                    <p class="text-muted mb-0 user-msg">
-                                        <small>Hi, How are you? What about our next meeting</small>
-                                    </p>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-primary">
-                                        <i class="mdi mdi-comment-account-outline"></i>
-                                    </div>
-                                    <p class="notify-details">Caleb Flakelar commented on Admin
-                                        <small class="text-muted">1 min ago</small>
-                                    </p>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon">
-                                        <img src="assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
-                                    <p class="notify-details">Karen Robinson</p>
-                                    <p class="text-muted mb-0 user-msg">
-                                        <small>Wow ! this admin looks good and awesome design</small>
-                                    </p>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-warning">
-                                        <i class="mdi mdi-account-plus"></i>
-                                    </div>
-                                    <p class="notify-details">New user registered.
-                                        <small class="text-muted">5 hours ago</small>
-                                    </p>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-info">
-                                        <i class="mdi mdi-comment-account-outline"></i>
-                                    </div>
-                                    <p class="notify-details">Caleb Flakelar commented on Admin
-                                        <small class="text-muted">4 days ago</small>
-                                    </p>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-secondary">
-                                        <i class="mdi mdi-heart"></i>
-                                    </div>
-                                    <p class="notify-details">Carlos Crouch liked
-                                        <b>Admin</b>
-                                        <small class="text-muted">13 days ago</small>
-                                    </p>
-                                </a>
-                            </div>
-
-                            <!-- All-->
-                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
-                                View all
-                                <i class="fi-arrow-right"></i>
-                            </a>
-
-                        </div>
-                    </li>
-
-                    <li class="dropdown notification-list">
-                        <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
-                            <span class="pro-user-name ml-1">
-                                Nowak <i class="mdi mdi-chevron-down"></i> 
-                            </span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
-                            <!-- item-->
-                            <div class="dropdown-header noti-title">
-                                <h6 class="text-overflow m-0">Welcome !</h6>
-                            </div>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-user"></i>
-                                <span>My Account</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-settings"></i>
-                                <span>Settings</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-lock"></i>
-                                <span>Lock Screen</span>
-                            </a>
-
-                            <div class="dropdown-divider"></div>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-log-out"></i>
-                                <span>Logout</span>
-                            </a>
-
-                        </div>
-                    </li>
-
-                    <li class="dropdown notification-list">
-                        <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect">
-                            <i class="fe-settings noti-icon"></i>
-                        </a>
-                    </li>
-
 
                 </ul>
 
@@ -230,9 +76,9 @@
 
                     <!-- User box -->
                     <div class="user-box text-center">
-                        <img src="assets/images/users/user-1.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail avatar-md">
+                        <img src="assets/images/users/WIN_20241111_17_02_47_Pro.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail avatar-md">
                         <div class="dropdown">
-                            <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-toggle="dropdown"  aria-expanded="false">Nowak Helme</a>
+                            <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-toggle="dropdown"  aria-expanded="false">Grata</a>
                             <div class="dropdown-menu user-pro-dropdown">
 
                                 <!-- item-->
@@ -261,7 +107,7 @@
     
                             </div>
                         </div>
-                        <p class="text-muted">Admin Head</p>
+                        <p class="text-muted">Admin</p>
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a href="#" class="text-muted">
@@ -282,46 +128,49 @@
 
                         <ul class="metismenu" id="side-menu">
 
-                            <li class="menu-title">Navigation</li>
+                            <li class="menu-title">Menu</li>
 
                             <li>
                                 <a href="index.html">
                                     <i class="mdi mdi-view-dashboard"></i>
-                                    <span> Dashboard </span>
+                                    <span> DASHBOARD </span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-page-layout-sidebar-left"></i>
-                                    <span> Layouts </span>
+                                    <span> EVENT </span>
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                                    <li><a href="layouts-sidebar-sm.html">Small Sidebar</a></li>
-                                    <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
+                                    <li><a href="layouts-horizontal.html">Daftar Event</a></li>
+                                    <li><a href="layouts-sidebar-sm.html">Detail Event</a></li>
+                                    {{-- <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
                                     <li><a href="layouts-dark-topbar.html">Dark Topbar</a></li>
                                     <li><a href="layouts-preloader.html">Preloader</a></li>
                                     <li><a href="layouts-sidebar-collapsed.html">Sidebar Collapsed</a></li>
-                                    <li><a href="layouts-boxed.html">Boxed</a></li>
+                                    <li><a href="layouts-boxed.html">Boxed</a></li> --}}
                                 </ul>
                             </li>
 
-                            <li class="menu-title">Apps</li>
-
                             <li>
-                                <a href="apps-chat.html">
+                                <a href="{{ route('users.index') }}">
                                     <i class="mdi mdi-forum"></i>
-                                    <span class="badge badge-purple float-right">New</span>
-                                    <span> Chat </span>
+                                    <span> DAFTAR PENGGUNA </span>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="calendar.html">
-                                    <i class="mdi mdi-calendar"></i>
-                                    <span> Calendar </span>
+                                <a href="javascript: void(0);">
+                                    <i class="mdi mdi-page-layout-sidebar-left"></i>
+                                    <span> PESERTA </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="layouts-horizontal.html">Daftar Pendaftaran</a></li>
+                                    <li><a href="layouts-sidebar-sm.html">Daftar Peserta</a></li>
+                                </ul>
                                 </a>
                             </li>
 
@@ -331,160 +180,6 @@
                                     <span> Mail </span>
                                 </a>
                             </li>
-
-                            <li class="menu-title">Components</li>
-
-                            <li>
-                                <a href="ui-typography.html">
-                                    <i class="mdi mdi-format-font"></i>
-                                    <span> Typography </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-invert-colors"></i>
-                                    <span> User Interface </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="ui-buttons.html">Buttons</a></li>
-                                    <li><a href="ui-cards.html">Cards</a></li>
-                                    <li><a href="ui-draggable-cards.html">Draggable Cards</a></li>
-                                    <li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
-                                    <li><a href="ui-material-icons.html">Material Design</a></li>
-                                    <li><a href="ui-font-awesome-icons.html">Font Awesome 5</a></li>
-                                    <li><a href="ui-dripicons.html">Dripicons</a></li>
-                                    <li><a href="ui-feather-icons.html">Feather Icons</a></li>
-                                    <li><a href="ui-themify-icons.html">Themify Icons</a></li>
-                                    <li><a href="ui-modals.html">Modals</a></li>
-                                    <li><a href="ui-notification.html">Notification</a></li>
-                                    <li><a href="ui-range-slider.html">Range Slider</a></li>
-                                    <li><a href="ui-components.html">Components</a>
-                                    <li><a href="ui-sweetalert.html">Sweet Alert</a>
-                                    <li><a href="ui-treeview.html">Tree view</a>
-                                    <li><a href="ui-widgets.html">Widgets</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-texture"></i>
-                                    <span class="badge badge-warning float-right">7</span>
-                                    <span> Forms </span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="form-elements.html">General Elements</a></li>
-                                    <li><a href="form-advanced.html">Advanced Form</a></li>
-                                    <li><a href="form-validation.html">Form Validation</a></li>
-                                    <li><a href="form-wizard.html">Form Wizard</a></li>
-                                    <li><a href="form-fileupload.html">Form Uploads</a></li>
-                                    <li><a href="form-quilljs.html">Quilljs Editor</a></li>
-                                    <li><a href="form-xeditable.html">X-editable</a></li>
-                                </ul>
-                            </li>
-                
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-view-list"></i>
-                                    <span> Tables </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="tables-basic.html">Basic Tables</a></li>
-                                    <li><a href="tables-datatable.html">Data Tables</a></li>
-                                    <li><a href="tables-responsive.html">Responsive Table</a></li>
-                                    <li><a href="tables-editable.html">Editable Table</a></li>
-                                    <li><a href="tables-tablesaw.html">Tablesaw Table</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-chart-donut-variant"></i>
-                                    <span> Charts </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="charts-flot.html">Flot Charts</a></li>
-                                    <li><a href="charts-morris.html">Morris Charts</a></li>
-                                    <li><a href="charts-chartist.html">Chartist Charts</a></li>
-                                    <li><a href="charts-chartjs.html">Chartjs Charts</a></li>
-                                    <li><a href="charts-other.html">Other Charts</a></li>
-                                </ul>
-                            </li>
-
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-file-multiple"></i>
-                                    <span> Pages </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="pages-starter.html">Starter Page</a></li>
-                                    <li><a href="pages-login.html">Login</a></li>
-                                    <li><a href="pages-register.html">Register</a></li>
-                                    <li><a href="pages-recoverpw.html">Recover Password</a></li>
-                                    <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-                                    <li><a href="pages-confirm-mail.html">Confirm Mail</a></li>
-                                    <li><a href="pages-404.html">Error 404</a></li>
-                                    <li><a href="pages-500.html">Error 500</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-layers"></i>
-                                    <span> Extra Pages </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="extras-projects.html">Projects</a></li>
-                                    <li><a href="extras-tour.html">Tour</a></li>
-                                    <li><a href="extras-taskboard.html">Taskboard</a></li>
-                                    <li><a href="extras-taskdetail.html">Task Detail</a></li>
-                                    <li><a href="extras-profile.html">Profile</a></li>
-                                    <li><a href="extras-maps.html">Maps</a></li>
-                                    <li><a href="extras-contact.html">Contact list</a></li>
-                                    <li><a href="extras-pricing.html">Pricing</a></li>
-                                    <li><a href="extras-timeline.html">Timeline</a></li>
-                                    <li><a href="extras-invoice.html">Invoice</a></li>
-                                    <li><a href="extras-faq.html">FAQs</a></li>
-                                    <li><a href="extras-gallery.html">Gallery</a></li>
-                                    <li><a href="extras-email-templates.html">Email Templates</a></li>
-                                    <li><a href="extras-maintenance.html">Maintenance</a></li>
-                                    <li><a href="extras-comingsoon.html">Coming Soon</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-share-variant"></i>
-                                    <span> Multi Level </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level nav" aria-expanded="false">
-                                    <li>
-                                        <a href="javascript: void(0);">Level 1.1</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript: void(0);" aria-expanded="false">Level 1.2
-                                            <span class="menu-arrow"></span>
-                                        </a>
-                                        <ul class="nav-third-level nav" aria-expanded="false">
-                                            <li>
-                                                <a href="javascript: void(0);">Level 2.1</a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript: void(0);">Level 2.2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-
                     </div>
                     <!-- End Sidebar -->
 
@@ -494,338 +189,96 @@
                 <!-- Sidebar -left -->
 
             </div>
+
+            <div class="container">
+                <br/>
+                <h3 align="center">How to Delete or Remove Data From Mysql in Laravel 6 using Ajax</h3>
+                <br/>
+                <div align="right">
+                    <button type="button" name="create_record" id="create_record" class="btn btn-success btn-sm">Create Record</button>
+                </div>
+                <br/>
+                <div class="table-responsive">
+                    <table id="user_table" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="35%">First Name</th>
+                                <th width="35%">Last Name</th>
+                                <th width="30%">Action</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <br/>
+            </div>
+            
+            <!-- Modal -->
+            <div id="formModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Add New Record</h4>
+                        </div>
+                        <div class="modal-body">
+                            <span id="form_result"></span>
+                            <form method="post" id="sample_form" class="form-horizontal">
+                                @csrf
+                                <div class="form-group">
+                                    <label class="control-label col-md-4">First Name:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" name="first_name" id="first_name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-4">Last Name:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" name="last_name" id="last_name" class="form-control" />
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group" align="center">
+                                    <input type="hidden" name="action" id="action" value="Add" />
+                                    <input type="hidden" name="hidden_id" id="hidden_id" />
+                                    <input type="submit" name="action_button" id="action_button" class="btn btn-warning" value="Add" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{-- @endsection
+            
+            @push('scripts')
+            <script>
+            $(document).ready(function(){
+                $('#user_table').DataTable({
+                    processing: true,
+                    serverSide: true,
+                    ajax: '{{ route('users.index') }}',
+                    columns: [
+                        {data: 'first_name', name: 'first_name'},
+                        {data: 'last_name', name: 'last_name'},
+                        {data: 'action', name: 'action', orderable: false}
+                    ]
+                });
+            });
+            </script> --}}
             <!-- Left Sidebar End -->
 
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
 
-            <div class="content-page">
+            {{-- <div class="content-page">
                 <div class="content">
 
                     <!-- Start Content-->
                     <div class="container-fluid">
-
-                        <div class="row">
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-
-                                    <h4 class="header-title mt-0 mb-4">Total Revenue</h4>
-
-                                    <div class="widget-chart-1">
-                                        <div class="widget-chart-box-1 float-left" dir="ltr">
-                                            <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#f05050 "
-                                                   data-bgColor="#F9B9B9" value="58"
-                                                   data-skin="tron" data-angleOffset="180" data-readOnly=true
-                                                   data-thickness=".15"/>
-                                        </div>
-
-                                        <div class="widget-detail-1 text-right">
-                                            <h2 class="font-weight-normal pt-2 mb-1"> 256 </h2>
-                                            <p class="text-muted mb-1">Revenue today</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-
-                                    <h4 class="header-title mt-0 mb-3">Sales Analytics</h4>
-
-                                    <div class="widget-box-2">
-                                        <div class="widget-detail-2 text-right">
-                                            <span class="badge badge-success badge-pill float-left mt-3">32% <i class="mdi mdi-trending-up"></i> </span>
-                                            <h2 class="font-weight-normal mb-1"> 8451 </h2>
-                                            <p class="text-muted mb-3">Revenue today</p>
-                                        </div>
-                                        <div class="progress progress-bar-alt-success progress-sm">
-                                            <div class="progress-bar bg-success" role="progressbar"
-                                                    aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"
-                                                    style="width: 77%;">
-                                                <span class="sr-only">77% Complete</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-
-                                    <h4 class="header-title mt-0 mb-4">Statistics</h4>
-
-                                    <div class="widget-chart-1">
-                                        <div class="widget-chart-box-1 float-left" dir="ltr">
-                                            <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#ffbd4a"
-                                                    data-bgColor="#FFE6BA" value="80"
-                                                    data-skin="tron" data-angleOffset="180" data-readOnly=true
-                                                    data-thickness=".15"/>
-                                        </div>
-                                        <div class="widget-detail-1 text-right">
-                                            <h2 class="font-weight-normal pt-2 mb-1"> 4569 </h2>
-                                            <p class="text-muted mb-1">Revenue today</p>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-
-                                    <h4 class="header-title mt-0 mb-3">Daily Sales</h4>
-
-                                    <div class="widget-box-2">
-                                        <div class="widget-detail-2 text-right">
-                                            <span class="badge badge-pink badge-pill float-left mt-3">32% <i class="mdi mdi-trending-up"></i> </span>
-                                            <h2 class="font-weight-normal mb-1"> 158 </h2>
-                                            <p class="text-muted mb-3">Revenue today</p>
-                                        </div>
-                                        <div class="progress progress-bar-alt-pink progress-sm">
-                                            <div class="progress-bar bg-pink" role="progressbar"
-                                                    aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"
-                                                    style="width: 77%;">
-                                                <span class="sr-only">77% Complete</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                            </div><!-- end col -->
-
-                        </div>
-                        <!-- end row -->
-
                         <div class="row">
                             <div class="col-xl-4">
                                 <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-
-                                    <h4 class="header-title mt-0">Daily Sales</h4>
-
-                                    <div class="widget-chart text-center">
-                                        <div id="morris-donut-example" dir="ltr" style="height: 245px;" class="morris-chart"></div>
-                                        <ul class="list-inline chart-detail-list mb-0">
-                                            <li class="list-inline-item">
-                                                <h5 style="color: #ff8acc;"><i class="fa fa-circle mr-1"></i>Series A</h5>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <h5 style="color: #5b69bc;"><i class="fa fa-circle mr-1"></i>Series B</h5>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!-- end col -->
-
-                            <div class="col-xl-4">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title mt-0">Statistics</h4>
-                                    <div id="morris-bar-example" dir="ltr" style="height: 280px;" class="morris-chart"></div>
-                                </div>
-                            </div><!-- end col -->
-
-                            <div class="col-xl-4">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title mt-0">Total Revenue</h4>
-                                    <div id="morris-line-example" dir="ltr" style="height: 280px;" class="morris-chart"></div>
-                                </div>
-                            </div><!-- end col -->
-
-                        </div>
-                        <!-- end row -->
-
-
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box widget-user">
-                                    <div class="media">
-                                        <div class="avatar-lg mr-3">
-                                            <img src="assets/images/users/user-3.jpg" class="img-fluid rounded-circle" alt="user">
-                                        </div>
-                                        <div class="media-body overflow-hidden">
-                                            <h5 class="mt-0 mb-1">Chadengle</h5>
-                                            <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p>
-                                            <small class="text-warning"><b>Admin</b></small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box widget-user">
-                                    <div class="media">
-                                        <div class="avatar-lg mr-3">
-                                            <img src="assets/images/users/user-2.jpg" class="img-fluid rounded-circle" alt="user">
-                                        </div>
-                                        <div class="media-body overflow-hidden">
-                                            <h5 class="mt-0 mb-1"> Michael Zenaty</h5>
-                                            <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p>
-                                            <small class="text-pink"><b>Support Lead</b></small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box widget-user">
-                                    <div class="media">
-                                        <div class="avatar-lg mr-3">
-                                            <img src="assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="user">
-                                        </div>
-                                        <div class="media-body overflow-hidden">
-                                            <h5 class="mt-0 mb-1">Stillnotdavid</h5>
-                                            <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p>
-                                            <small class="text-success"><b>Designer</b></small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end col -->
-
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card-box widget-user">
-                                    <div class="media">
-                                        <div class="avatar-lg mr-3">
-                                            <img src="assets/images/users/user-10.jpg" class="img-fluid rounded-circle" alt="user">
-                                        </div>
-                                        <div class="media-body overflow-hidden">
-                                            <h5 class="mt-0 mb-1">Tomaslau</h5>
-                                            <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p>
-                                            <small class="text-info"><b>Developer</b></small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- end col -->
-        
-                        </div>
-                        <!-- end row -->
-
-
-                        <div class="row">
-                            <div class="col-xl-4">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-vertical"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
-                                        </div>
-                                    </div>
+                  
 
                                     <h4 class="header-title mb-3">Inbox</h4>
 
@@ -897,7 +350,7 @@
                                         </div>
                                     </div>
 
-                                    <h4 class="header-title mt-0 mb-3">Latest Projects</h4>
+                                     <h4 class="header-title mt-0 mb-3">Latest Projects</h4>
 
                                     <div class="table-responsive">
                                         <table class="table table-hover mb-0">
@@ -969,12 +422,12 @@
                                 </div>
                             </div><!-- end col -->
 
-                        </div>
+                        </div> --
                         <!-- end row -->       
                         
                     </div> <!-- container-fluid -->
 
-                </div> <!-- content -->
+                </div> <!-- content --> --}}
 
                 <!-- Footer Start -->
                 <footer class="footer">

@@ -13,8 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->unsignedBigInteger('role_id')->after('email');
+        Schema::create('participants', function (Blueprint $table) {
+            $table->id('participant_id'); // Primary Key
+            $table->string('name'); // Nama peserta
+            $table->string('email')->unique(); // Email peserta
+            $table->string('phone')->nullable(); // Nomor telepon peserta
+            $table->timestamps();
         });
     }
 
@@ -25,9 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropForeign(['role_id']);
-            $table->dropColumn('role_id');
-        });
+        Schema::dropIfExists('participants');
     }
 };

@@ -14,17 +14,15 @@ return new class extends Migration
     public function up()
     {
         Schema::create('event', function (Blueprint $table) {
-            $table->id('event_id');
-            $table->String('title');
-            $table->longText('description')->nullable();
-            $table->String('image')->nullable();
-            $table->date('start_date')->nullable();
-            $table->date('end_date')->nullable();
-            $table->unsignedBigInteger('created_by_admin_id')->nullable();
+            $table->id('event_id'); // Primary Key
+            $table->string('title'); // Judul event
+            $table->longText('description')->nullable(); // Deskripsi event
+            $table->string('image')->nullable(); // Gambar event
+            $table->date('start_date')->nullable(); // Tanggal mulai
+            $table->date('end_date')->nullable(); // Tanggal selesai
+            $table->unsignedBigInteger('created_by_admin_id'); // Admin yang membuat
             $table->timestamps();
-
-        //     $table->foreign('created_by_admin_id')->references('id')->on('admins')->onDelete('cascade');
-         });
+        });
     }
 
     /**

@@ -35,13 +35,17 @@ Route::get('/index', [AuthController::class, 'index'])->middleware('auth')->name
 //     return redirect()->route('index'); // Redirect ke halaman index
 // }
 
-Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/login', [AuthController::class,'formlogin']);
 // Route::post('/login', [AuthController::class, 'authenticating']);
 
-Route::post('/authenticating', [AuthController::class, 'authenticating']);
+Route::post('/login', [AuthController::class,'authenticate']);
+
+Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::get('/users', [AuthController::class, 'index'])->name('users.index');
 
 // Halaman Dashboard (untuk pengguna yang sudah login)
-Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard')->middleware('auth');
+// Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard')->middleware('auth');
 
 Route::get('/dashboard', function () {
     return view('/dashboard');
